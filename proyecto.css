@@ -1,0 +1,151 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: grey;
+    padding: 16px 0;
+}
+
+header h1 {
+    font-family: "New Amsterdam", sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+}
+
+nav {
+    font-family: "New Amsterdam", sans-serif;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(115, 112, 112);
+}
+
+footer {
+    font-family: "New Amsterdam", sans-serif;
+    background-color: black;
+    clear: both;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: rgb(115, 112, 112);
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "New Amsterdam", sans-serif;
+    color: rgb(88, 87, 87);
+    font-weight: 400;
+}
+
+/*fin hom*/
+
+/*inicio nosotros*/
+
+.historia {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.nosotros {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.equipo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personas {
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: rgb(115, 112, 112);
+}
+
+
+/*fin nosotros*/
+
+
+/*inicio sercicios*/
+
+.servicios {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px; /*margenes entre imagen y texto*/
+    align-items: center;
+}
+
+.servicios.info h4 {
+    color: rgb(128, 126, 126);
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px rgb(128, 126, 126);
+    padding-bottom: 10px;
+}
+
+.servicios.info p {
+    font-size: 13px;
+}
+
+.servicios img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicios:nth-child(even) {/*pares*/
+    flex-direction: row-reverse;
+}
+
+
+
+/*fin servicios*/
